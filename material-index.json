@@ -1,0 +1,17 @@
+[
+  {
+    "path": "fixtures/join.json",
+    "sha256": "8a38a29eeff5e41d1a8932a384a237d6d9c6decfb793a907ad2d98cea20bdcad",
+    "size_bytes": 461
+  },
+  {
+    "path": "fixtures/left.jsonl",
+    "sha256": "9d92228ad3fd465ef68461df4a2aa110757350ce53654239c931e461a95a8556",
+    "size_bytes": 127
+  },
+  {
+    "path": "fixtures/right.jsonl",
+    "sha256": "1c7fd69f200ff1b58357a87e063e62b594c46602afcbdce18e6da9ac5322886f",
+    "size_bytes": 123
+  }
+]

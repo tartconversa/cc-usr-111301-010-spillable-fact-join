@@ -1,0 +1,22 @@
+{
+  "join_types": [
+    "inner",
+    "left"
+  ],
+  "key_type": "nullable_string",
+  "null_equality": false,
+  "buffer_max_records": 2,
+  "buffer_max_serialized_bytes": 256,
+  "max_open_files": 4,
+  "output_order": [
+    "normalized_key",
+    "left_row_id",
+    "right_row_id"
+  ],
+  "oversized_record": "single_record_channel_with_reported_exception",
+  "hot_key_expansion": {
+    "left_records": 31,
+    "right_records": 37,
+    "distinct_row_ids": true
+  }
+}
