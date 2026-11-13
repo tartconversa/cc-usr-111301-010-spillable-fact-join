@@ -1,0 +1,85 @@
+{
+  "input": {
+    "left": {
+      "records": 3,
+      "bytes": 127,
+      "distinct_keys": 2
+    },
+    "right": {
+      "records": 3,
+      "bytes": 123,
+      "distinct_keys": 1
+    }
+  },
+  "sort": {
+    "left": {
+      "runs_written": 2,
+      "peak_records": 2,
+      "peak_bytes": 216,
+      "spill_count": 2,
+      "spill_records": 3,
+      "spill_bytes": 327
+    },
+    "right": {
+      "runs_written": 2,
+      "peak_records": 2,
+      "peak_bytes": 216,
+      "spill_count": 2,
+      "spill_records": 3,
+      "spill_bytes": 324
+    }
+  },
+  "merge_rounds": {
+    "left": {
+      "rounds": 1,
+      "per_round_input_runs": [
+        2
+      ],
+      "peak_input_runs": 2,
+      "peak_heap_bytes": 219,
+      "written_bytes": 327
+    },
+    "right": {
+      "rounds": 1,
+      "per_round_input_runs": [
+        2
+      ],
+      "peak_input_runs": 2,
+      "peak_heap_bytes": 216,
+      "written_bytes": 324
+    },
+    "output": {
+      "rounds": 1,
+      "per_round_input_runs": [
+        2
+      ],
+      "peak_input_runs": 2,
+      "peak_heap_bytes": 418,
+      "written_bytes": 1254
+    }
+  },
+  "hot_groups": {
+    "hot_groups": 1,
+    "hot_chunk_files": 2,
+    "oversized_singleton_chunks": 0,
+    "peak_records": 2,
+    "peak_bytes": 216,
+    "spill_count": 2,
+    "spill_records": 3,
+    "spill_bytes": 324
+  },
+  "parts": 2,
+  "output_rows": 6,
+  "output_bytes": 1056,
+  "oversized": [],
+  "fd_peak": 3,
+  "injected_fault": null,
+  "config": {
+    "join_type": "inner",
+    "max_records": 2,
+    "max_bytes": 256,
+    "max_open_files": 4,
+    "fault": null
+  },
+  "algorithm": "external_sort_merge_join：双侧外排序归并，热点组磁盘分块交叉，FD 受限时多轮归并，输出流式提交"
+}

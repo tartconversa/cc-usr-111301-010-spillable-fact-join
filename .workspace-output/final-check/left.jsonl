@@ -1,0 +1,7 @@
+{"normalized_key":{"type":"null","value":null},"left_row_id":"l3","right_row_id":null,"left":{"row_id":"l3","key":null,"value":30},"right":null}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l1","right_row_id":"r1","left":{"row_id":"l1","key":"x","value":10},"right":{"row_id":"r1","key":"x","value":1}}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l1","right_row_id":"r2","left":{"row_id":"l1","key":"x","value":10},"right":{"row_id":"r2","key":"x","value":2}}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l1","right_row_id":"r3","left":{"row_id":"l1","key":"x","value":10},"right":{"row_id":"r3","key":"x","value":3}}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l2","right_row_id":"r1","left":{"row_id":"l2","key":"x","value":20},"right":{"row_id":"r1","key":"x","value":1}}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l2","right_row_id":"r2","left":{"row_id":"l2","key":"x","value":20},"right":{"row_id":"r2","key":"x","value":2}}
+{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l2","right_row_id":"r3","left":{"row_id":"l2","key":"x","value":20},"right":{"row_id":"r3","key":"x","value":3}}

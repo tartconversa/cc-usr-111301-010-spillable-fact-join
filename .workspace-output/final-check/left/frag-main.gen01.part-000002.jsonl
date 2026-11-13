@@ -1,0 +1,2 @@
+{"sk":[4,"x","l1",1,"r3"],"out":{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l1","right_row_id":"r3","left":{"row_id":"l1","key":"x","value":10},"right":{"row_id":"r3","key":"x","value":3}}}
+{"sk":[4,"x","l2",1,"r3"],"out":{"normalized_key":{"type":"string","value":"x"},"left_row_id":"l2","right_row_id":"r3","left":{"row_id":"l2","key":"x","value":20},"right":{"row_id":"r3","key":"x","value":3}}}

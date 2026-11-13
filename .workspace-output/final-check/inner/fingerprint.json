@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "left": {
+      "path": "fixtures/left.jsonl",
+      "sha256": "9d92228ad3fd465ef68461df4a2aa110757350ce53654239c931e461a95a8556",
+      "bytes": 127
+    },
+    "right": {
+      "path": "fixtures/right.jsonl",
+      "sha256": "1c7fd69f200ff1b58357a87e063e62b594c46602afcbdce18e6da9ac5322886f",
+      "bytes": 123
+    }
+  },
+  "params": {
+    "join_type": "inner",
+    "max_records": 2,
+    "max_bytes": 256,
+    "max_open_files": 4
+  }
+}
